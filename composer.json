@@ -1,0 +1,31 @@
+{
+    "name": "kenjis/phpunitvwtest",
+    "description":" ",
+    "keywords":[
+    ],
+    "license": "MIT",
+    "autoload":{
+        "psr-4":{
+            "Kenjis\\PHPUnitVWTest\\": "src/"
+        }
+    },
+    "autoload-dev":{
+        "psr-4":{
+            "Kenjis\\PHPUnitVWTest\\": ["tests/", "tests/Fake"]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "0.1.x-dev"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*",
+        "hmlb/phpunit-vw": "dev-master"
+    }
+}
