@@ -27,8 +27,8 @@ class PHPUnitVWTestTest extends \PHPUnit_Framework_TestCase
         throw new Exception\LogicException;
     }
 
-//    public function testShouldBeFailed()
-//    {
-//        $this->assertEquals('expected', 'actual');
-//    }
+    public function testShouldBeFailed()
+    {
+        $this->assertEquals('expected', 'actual');
+    }
 }
